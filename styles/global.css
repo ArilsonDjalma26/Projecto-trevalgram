@@ -27,3 +27,24 @@ body{
     background-color: var(--background-color);
     font: var(--text);
 }
+
+a{
+    text-decoration: none;
+    color: inherit;             /*Esta configuracao e             apropriada                    para o global para refletir para todos "links" da  pagina, assim nenhum deles pega mas o tracejado nem a cor azul padrao. O inherit serve para herdar a cor do pai que neste caso em particular seria o body(text-color-secundary)*/
+
+
+}
+a:hover{/*Quando  eu passar o mouse alguma coisa vai acontecer*/
+    color: var(--brand-color);/*A cor sera esta que foi definida*/
+    text-decoration: underline;/*e tera uma tracejado por baixo do texto*/
+}
+
+.container{
+    padding-inline: 32px; /*paddind-inline serve para dar espacamento(interno) so nas laterais*/
+    max-width: 1280px; /*Largura maxima de 1280*/
+    margin-inline: auto;/*Espacamento externo. Centraliza todos os elementos*/
+}
+
+.bg-surface-color{
+    background-color: var(--surface-color);
+}
