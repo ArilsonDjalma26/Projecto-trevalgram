@@ -3,10 +3,10 @@ nav{
     justify-content: space-between;
     align-items: center;
 
-    line-height: 0; /*com o line-heigt 0 tiramos ou elinamos qualquer espaco extra entre os elementos*/
+    line-height: 0;
     
-    margin-inline: AUTO;
-    padding-block: 20px; /*Espaco no topo e no final(interno)*/
+    margin-inline: auto;
+    padding-block: 20px;
 }
 
 nav ul{
@@ -22,6 +22,6 @@ nav ul{
 nav ul li:last-child img{
     width: 40px;
     height: 40px;
-    object-fit: cover; /*Cobre todo espaco de 40px, neste caso a nossa imagem*/
+    object-fit: cover;
     border-radius: 50%;
 }

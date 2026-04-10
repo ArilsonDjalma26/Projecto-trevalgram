@@ -25,14 +25,14 @@ header .container{
     border-radius: 50%;
 }
 
-#profile > div{  /*Aqui estou a dizer para aplicar este estilo no primeiro div do meu profile*/
+#profile > div{
     max-width: 384px;
 }
 
 #profile h1{
-    font: var(--text-lg);/* Aqui uso a font e linehight que definimos para para este texto*/
-    color: var(--text-color-primary); /*A cor*/
-    margin-bottom: 8px; /*Um margin botton entre o h1 e o p*/
+    font: var(--text-lg);
+    color: var(--text-color-primary);
+    margin-bottom: 8px;
 }
 
 #info{

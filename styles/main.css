@@ -8,5 +8,5 @@ main{
 main img{
     width: 286px;
     height: 286px;
-    object-fit: cover;/*Para cobrir o espaco*/
+    object-fit: cover;
 }
