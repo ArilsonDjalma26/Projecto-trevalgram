@@ -43,6 +43,7 @@ a:hover{/*Quando  eu passar o mouse alguma coisa vai acontecer*/
     padding-inline: 32px; /*paddind-inline serve para dar espacamento(interno) so nas laterais*/
     max-width: 1280px; /*Largura maxima de 1280*/
     /*Espacamento externo. Centraliza todos os elementos*/
+    margin-inline: auto;
 }
 
 .bg-surface-color{

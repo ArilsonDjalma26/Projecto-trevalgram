@@ -8,6 +8,8 @@ header .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    margin-inline: auto;
 }
 
 #profile{
@@ -16,14 +18,14 @@ header .container{
     gap: 32px;
 }
 
-#profile > div{
+#profile > div{  /*Aqui estou a dizer para aplicar este estilo no primeiro div do meu profile*/
     max-width: 384px;
 }
 
 #profile h1{
-    font: var(--text-lg);
-    color: var(--text-color-primary);
-    margin-bottom: 8px;
+    font: var(--text-lg);/* Aqui uso a font e linehight que definimos para para este texto*/
+    color: var(--text-color-primary); /*A cor*/
+    margin-bottom: 8px; /*Um margin botton entre o h1 e o p*/
 }
 
 #info{
@@ -31,7 +33,7 @@ header .container{
     flex-direction: column;
     gap: 16px;
 
-    width: 280;
+    width: 280px;
 }
 
 #info li{
