@@ -49,6 +49,10 @@ Depois acesse:
 
 `http://localhost:5500`
 
+## 📸 Preview do Projeto
+
+![Preview do projeto](assets/preview.png)
+
 ## 📚 Créditos
 
 Projeto proposto pela **Rocketseat** para prática de HTML e CSS.
